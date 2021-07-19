@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <form method="POST">
+
+        <table align="center" border="0" cellspacing="15">
+            <tr>
+                <td>First Name
+                    <td><input type="text" placeholder="Enter First Name" required minlength="6" maxlength="6"></td>
+            </tr>
+            <tr>
+                <td>
+                    Last Name
+                    <td><input type="text" placeholder="Enter Last Name" required minlength="6" maxlength="6">
+                    </td>
+            </tr>
+            <tr>
+                <td>
+                    Email Address
+                    <td><input type="text" placeholder="Enter Email" required>
+                    </td>
+            </tr>
+            <tr>
+                <td>
+                    Password
+                    <td><input type="password" placeholder="Enter Password" required>
+                    </td>
+            </tr>
+            <tr>
+                <td>
+                    Confirm Password
+                    <td><input type="password" placeholder="Confirm Password" required>
+                    </td>
+            </tr>
+            <tr>
+                <td>
+                    Rate YourSelf
+                    <td><input type="number" required min="1" max="10">
+                    </td>
+            </tr>
+            <tr>
+                <td>
+                    Gender
+                    <td><input type="radio" name="r1">MALE<input type="radio" name="r1">FEMALE
+                    </td>
+            </tr>
+            <tr>
+                <td>Date of Birth
+                    <td><input type="date" required></td>
+            </tr>
+            <tr>
+                <td>About Yourself
+                    <td><textarea name="comment" maxlength="50">Start From Here</textarea></td>
+            </tr>
+            <tr>
+                <td>Upload File
+                    <td><input type="file" name="file">
+                    </td>
+            </tr>
+
+            <tr>
+                <td align="center" colspan="2">
+                    <input type="submit" id="btn">
+
+        </table>
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,34 @@
+body{
+    background-color: #ffb6b9;
+}
+
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 5%;
+}
+h1{
+    color: rgb(175, 149, 110);
+}
+h2{
+    color: rgb(175, 149, 110);
+}
+h3{
+    color: rgb(175, 149, 110);
+}
+img:hover{
+    background-color:goldenrod;
+}
+.sq{
+    border-radius: 100%;
+    
+}
+#heading1{
+    color: rosybrown;
+}
+#heading3{
+    color: royalblue;
+    
+}

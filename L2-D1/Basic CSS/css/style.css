@@ -1,0 +1,64 @@
+body{
+    margin: 0;/*all four side will be set to zero */
+    text-align: center; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    
+}
+
+h1{
+    font-size: 5.625rem;/* rem means ignore the setting of parent element.*/
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin:50px auto 0 auto ;
+    color:cornflowerblue;
+    font-weight: normal;
+}
+h2{
+    font-size: 2.5rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: crimson;
+    line-height: 2;
+}
+
+h3{
+    font-size: 2.5rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:darkgoldenrod;
+
+}
+.one{
+    background-color:#fbf0f0;
+}
+.skill-row{
+    width: 50%;
+    margin:100px auto 100px auto;/*for placing the content in center*/
+    line-height: 2;
+    
+    
+}
+.dog{
+    width:25%;
+    float: left;
+    margin-right:100px;
+}
+.hamster{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+.profile img{
+    width: 20%;
+    margin:80px auto 10px auto ;
+}
+.profile h2,p{
+    text-align: center;
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 5%;
+}
+
+
