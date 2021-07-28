@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h2>Promise SetTimeout</h2>
+
+    <p></p>
+
+    <h1 id="demo"></h1>
+
+    <script>
+        const myPromise = new Promise(function(myResolve, myReject) {
+            setTimeout(function() {
+                myResolve("Hello Ankush !!");
+            }, 3000);
+        });
+
+        myPromise.then(function(value) {
+            document.getElementById("demo").innerHTML = value;
+        });
+    </script>
+
+</body>
+
+</html>

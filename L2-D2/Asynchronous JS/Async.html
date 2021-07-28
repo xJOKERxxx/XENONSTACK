@@ -1,0 +1,32 @@
+<!--async makes a function return a Promise-->
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h2>Async</h2>
+
+    <p id="demo"></p>
+
+    <script>
+        function myDisplayer(some) {
+            document.getElementById("demo").innerHTML = some;
+        }
+
+        async function myFunction() {
+            return "Hello Ankush";
+        }
+
+        myFunction().then(
+            function(value) {
+                myDisplayer(value);
+            },
+            function(error) {
+                myDisplayer(error);
+            }
+        );
+    </script>
+
+</body>
+
+</html>
