@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>React App</title>
+    <style>
+        body {
+            background-color: #00DBDE;
+            background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        
+        h1 {
+            font-size: 50px;
+            text-align: center;
+            margin-left: 50px;
+        }
+        
+        .List1 ul li {
+            font-size: 25px;
+            list-style-type: none;
+            padding: 0;
+            padding-top: 80px;
+            margin: 0;
+            text-align: center;
+        }
+        
+        .List1 h1 {
+            padding-top: 50px;
+            font-size: 40px;
+        }
+        
+        .List2 ul li {
+            font-size: 25px;
+            list-style-type: none;
+            padding: 0;
+            padding-top: 80px;
+            margin: 0;
+            text-align: center
+        }
+        
+        .List2 h1 {
+            padding-top: 100px;
+            font-size: 40px;
+        }
+        
+        img {
+            width: 200px;
+            height: 200px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        "./src/index.js"
+    </script>
+    <div id="root"></div>
+    <div class="List1">
+        <h1>SPORTS</h1>
+
+        <ul>
+            <li>
+                <a href="https://en.wikipedia.org/wiki/Football">Football <img src="https://images.unsplash.com/photo-1589487391730-58f20eb2c308?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Zm9vdGJhbGx8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"></a></li>
+
+            <li>
+                <a href="https://en.wikipedia.org/wiki/Tennis">Tennis<img src="https://images.unsplash.com/photo-1554068865-24cecd4e34b8?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dGVubmlzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"></a></li>
+
+            <li><a href="https://en.wikipedia.org/wiki/Basketball">BasketBall<img src="https://images.unsplash.com/photo-1546519638-68e109498ffc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YmFza2V0YmFsbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"></a></li>
+
+        </ul>
+
+
+
+    </div>
+    <div class="List2">
+        <h1>LANGUAGES</h1>
+
+        <ul>
+            <li><a href="https://www.python.org/">Python & Django<img src="https://cdn.swapps.com/uploads/2019/04/django-faster.jpg"></a></li>
+
+
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript<img src="data:image/png;base64,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"></a></li>
+
+
+            <li><a href="https://www.geeksforgeeks.org/mern-stack/">MERN Stack<img src="https://blog.hyperiondev.com/wp-content/uploads/2018/09/Blog-Article-MERN-Stack.jpg"></a></li>
+
+
+        </ul>
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>
